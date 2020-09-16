@@ -90,7 +90,7 @@ public class CsvBuilder {
         HashMap<String,Float> titleScore = new HashMap<>();
 
        mapMovieMeanScore2.keySet().forEach(x-> movId.add((Integer)x));
-       first100 = movId.stream().limit(100).collect(Collectors.toList());
+       first100 = movId.stream().limit(99).collect(Collectors.toList());
 
 
 
